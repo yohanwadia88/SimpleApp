@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-image-demo",
+  "version": "1.0.0",
+  "description": "Simple NodeJS Demo with AWS CICD Pipeline",
+  "author": "thebadman",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "mocha",
+    "start": "node src"
+  },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.16.4",
+    "lint": "^0.7.0",
+    "mocha": "^6.2.0"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "ParameterKey": "GitHubToken",
+    "ParameterValue": "c3e9a445798d78d40e66850afef67c5d92da5d7d"
+  },
+  {
+    "ParameterKey": "GitHubRepoOwner",
+    "ParameterValue": "yoyoclouds"
+  },
+  {
+    "ParameterKey": "GitHubRepoName",
+    "ParameterValue": "SimpleApp"
+  },
+  {
+    "ParameterKey": "GitHubBranch",
+    "ParameterValue": "master"
+  },
+  {
+    "ParameterKey": "S3ArtifactStore",
+    "ParameterValue": "codepipeline-us-east-1-democicd-artifactstore-01"
+  },
+  {
+    "ParameterKey": "EC2KeyName",
+    "ParameterValue": "yoyo-test"
+  }
+]
