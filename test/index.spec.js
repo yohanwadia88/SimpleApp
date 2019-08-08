@@ -1,9 +1,9 @@
-const chai = require('chai')
-const chaiHttp = require('chai-http')
-const server = require('../src/app.js')
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const server = require('../src/app.js');
 
-chai.should()
-chai.use(chaiHttp)
+chai.should();
+chai.use(chaiHttp);
 
 describe('Main Landing Page', () => {
   it('should list / GET', function(done) {
@@ -14,7 +14,7 @@ describe('Main Landing Page', () => {
         done();
       });
   });
-})
+});
 
 describe('Sharks Landing Page', () => {
   it('should list /sharks GET', function(done) {
@@ -25,7 +25,7 @@ describe('Sharks Landing Page', () => {
         done();
       });
   });
-})
+});
 
 describe('Contact Us Landing Page', () => {
   it('should list /contactus GET', function(done) {
@@ -36,5 +36,5 @@ describe('Contact Us Landing Page', () => {
         done();
       });
   });
-})
+});
 

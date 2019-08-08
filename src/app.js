@@ -22,7 +22,7 @@ app.use(express.static(path));
 app.use('/', router);
 
 app.listen(port, function () {
-  console.log('Example app listening on port 8080!')
-})
+  console.log('Example app listening on port 8080!');
+});
 
 module.exports = app;
