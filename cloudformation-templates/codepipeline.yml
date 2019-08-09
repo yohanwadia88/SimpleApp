@@ -147,7 +147,7 @@ Resources:
           Name: Source
           Actions:
             -
-              Name: SourceAction
+              Name: SourcetoEC2Action
               ActionTypeId:
                 Category: Source
                 Owner: ThirdParty
@@ -165,7 +165,7 @@ Resources:
         -
           Name: Test
           Actions:
-            - Name: CodeBuild
+            - Name: TesttoEC2Action
               ActionTypeId:
                 Category: Build
                 Owner: AWS
@@ -181,7 +181,7 @@ Resources:
         -
           Name: Build
           Actions:
-            - Name: CodeBuild
+            - Name: BuildtoEC2Action
               ActionTypeId:
                 Category: Build
                 Owner: AWS

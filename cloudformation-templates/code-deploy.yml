@@ -104,7 +104,7 @@ Resources:
       LaunchConfigurationName: !Ref EC2LaunchConfiguration
       AvailabilityZones:
         Fn::GetAZs: "us-east-1"
-      MinSize: "2"
+      MinSize: "1"
       MaxSize: "2"
       LoadBalancerNames:
         - !Ref LoadBalancer
